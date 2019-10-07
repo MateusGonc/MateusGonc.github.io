@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One&display=swap" rel="stylesheet">
+    <title>Portfólio do Mateus</title>
+</head>
+<style>
+    html{
+        scroll-behavior: smooth;
+    }
+    body{
+        margin: 0;
+        font-family: 'fjalla one', sans-serif;
+    }
+    #topMenu {
+        display: flex;
+        background-color: darkslategrey;
+        margin: 0;
+    }
+    #topMenu li {
+        color:white;
+        text-decoration: none;
+        display: block;
+        padding: 15px;
+    }
+
+    #topMenu li:first-child{
+        margin-right: auto;
+    }
+    .section1 {
+        display: flex;
+        height: 100vh;
+        background-image: url(http://getwallpapers.com/wallpaper/full/5/f/0/11925.jpg);
+    }
+    .centralize {
+        margin: auto;
+        text-align: center;
+    }
+    .section2 {
+        display: flex;
+        height: 33vh;
+        background-color: white;
+    }
+    .imagemProjeto {
+        width: 15vw;
+        height: 15vh;
+        padding-left: 15px; 
+    }
+    .section3   {
+        display: flex;
+        height: 33vh;
+        background-color: #e5e6ea;
+    }
+    footer{
+        background-color: black;
+        padding: 20px;
+        color: white;
+    }
+    .botao{
+        background-color:gray;
+        border-radius: 5px;
+        color: white;
+        padding: 10px;
+    }
+</style>
+<body>
+    <nav>
+        <ul id = "topMenu">
+            <li>Mateus</li>
+            <a href="#topMenu"><li>Home</li></a>
+            <a href="#Projetos"><li>Informações</li></a>
+            <a href="#footer"><li>Contato</li></a>
+        </ul>
+    </nav>
+    <div class="section1">
+        <div class="centralize">
+            
+            <h1 style="color: white">Mateus da Silva Gonçalves</h1>
+            <h3 style="color: white">Natural de Sorocaba, nascido em 17 de novembro de 1997, Mateus se formou Técnico em Mecânica no final de 2017,
+                área de principal atuação no mercado de trabalho, agora buscando novos horizontes é um aspirante a desenvolvedor
+                da área de computação, tendo ingressado no curso de tecnologia em analise e desenvolvimento de sistemas na FATEC Sorocaba no 1º 
+                semestre de 2018.
+            </h3>
+            <a href="#Projetos"><button class="botao">Informações</button></a>
+        </div>
+    </div>
+
+    <div id="Projetos" class="section2 centralize">
+        <table class="centralize">
+            <tr>
+                <td style="width:40%"> <img class="imagemProjeto" 
+                    src="http://prosperemais.com.br/wp-content/uploads/2017/11/Nao-basta-ter-formacao-academica-1024x585.png"></img></td>
+                <td style="width:1000%; text-align: left">
+                    <ul style="color: black;">
+                    Formação Acadêmica
+                    <hr>
+                    <li>Ensino médio, Escola Estadual Prof Antonio Cordeiro, concluído em dez/2015 </li>
+                    <li>Técnico em Mecânica, ETEC Rubens de Faria e Souza, concluído dez/2017</li>
+                    <li>Cursando Analise e Desenvolvimento de Sistemas, FATEC Sorocaba desde jan/2018</li>
+                </ul></td>
+            </tr>
+        </table>
+    </div>
+
+    <div id="Projetos" class="section3 centralize">
+            <table class="centralize">
+                <tr>
+                    <td style="width:60%; text-align: left">
+                        <ul style="color: black">
+                        Experiência Profissional
+                        <hr>
+                        <li>Aprendiz Assistente em Montagem em Série, Schaeffler, de jan/2016 a dez/2016 </li>
+                        <li>Auxiliar de Operador de Produção, Schaeffler, de fev/2017 a abr/2017</li>
+                        <li>Inspetor de Qualidade, Schaeffler, de abr/2017 até atualmente</li>
+                    </ul></td>
+                    <td style="width:40%"> <img class="imagemProjeto" 
+                        src="https://imagenes.universia.net/gc/net/images/consejos-profesionales/c/co/com/como-criar-um-curriculo-sem-ter-experiencia-profissional-.png"></img></td>
+                </tr>
+            </table>
+        </div>
+
+        <div id="Projetos" class="section2 centralize">
+                <table class="centralize">
+                    <tr>
+                        <td style="width:40%"> <img class="imagemProjeto" 
+                            src="https://apicesistemasdeenergia.com.br/wp-content/uploads/2017/07/tecnologia-da-informacao-1200x480.jpg"></img></td>
+                        <td style="width:60%; text-align: left">
+                            <ul style="color: black;">
+                            Informações Complementares
+                            <hr>
+                            <li>Inglês nível intermediário </li>
+                            <li>Linguagem C/C#/C++</li>
+                            <li>Java
+                            <li>Html/CSS/JavaScript</li>
+                            <li>.NET</li>
+                            <li>MySql</li>
+                        </ul></td>
+                    </tr>
+                </table>
+            </div>
+            <footer id="footer">
+                <h5 class="centralize"> Criado por Mateus. Contato: (15) 99734-2973, mateusxisd@hotmail.com </h5>
+            </footer>
+        
+        
+</body>
+</html>
